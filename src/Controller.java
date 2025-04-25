@@ -30,6 +30,11 @@ public class Controller {
             System.out.println("Correcto");
         } else {
             System.out.println("Error");
-        } ;
+        }
+
+        miModel.aumentarV("SBC 1234", 10);
+        miModel.aumentarV("SBC 1234", 5);
+        miModer.
+        System.out.println(miModel.getVelocidad("SBC 1234"));
     }
 }

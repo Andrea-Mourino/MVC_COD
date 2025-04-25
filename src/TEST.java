@@ -6,12 +6,9 @@ class TEST {
     void cambiarVelocidadShouldThrowExceptionIfCocheDoesNotExist() {
     }
 
-
     @Test
     void getCoche() {
     }
-
-
 
     @Test
     void getVelocidadShouldReturnCorrectVelocidad() {

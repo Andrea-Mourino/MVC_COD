@@ -61,7 +61,7 @@ public class Model {
         return getCoche(matricula).velocidad;
     }
 
-    public int aumentarVelocidad(String matricula, Integer v) {
+    public int aumentarV(String matricula, Integer v) {
         Coche coche = getCoche(matricula);
         if (coche != null) {
             coche.velocidad += v;
@@ -70,7 +70,7 @@ public class Model {
         }
         return -1;
     }
-    public int disminuirVelocidad ( String matricula, Integer v){
+    public int disminuirV ( String matricula, Integer v){
         Coche coche = getCoche(matricula);
         if (coche != null) {
             coche.velocidad -= v;
